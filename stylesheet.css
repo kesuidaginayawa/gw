@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+* {
+  box-sizing:border-box;
+}
+
+.clear {
+  clear:left
+}
+
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #383e45;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+.main {
+  margin:0 auto;
+}
+
+.site-title {
+  width: 120px;
+  line-height: 1px;
+  padding: 10px 0;
+}
+.site-title a {
+  display: block;
+}
+.section-title {
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+}
+.content-title {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+  text-align: center;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+.header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #634307;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header h1 {
+  font-size:24px;
+}
+
+.site-title {
+  float: left;
+  color: white;
+}
+
+.site-title h1{
+  padding-left:20px
+}
+
+
+.header-right {
+  float: right;
+}
+
+.navbar a {
+  padding: 20px 10px 0 0 ;
+  display: block;
+  float:left;
+  font-size:20px;
+  font-weight:normal;
+  
+}
+
+.navbar {
+  color:white
+}
+
+.menu-icon {
+  color:white;
+}
+
+
+
+
+/* -----------------------------------------
+mainvisual 
+-----------------------------------------*/
+.mainvisual {
+  text-align: center;
+  margin:0 auto;
+  height:600px;
+}
+
+.main-img{
+  width: 100%;
+  max-height: 600px;
+  /* height: 100%; */
+  /* object-fit: cover; */
+  position:relative;
+}
+
+.about {
+  position: absolute;
+  top: 130px;
+  margin-left:100px;
+}
+
+.about h2 {
+  font-style:italic;
+  font-family: "Segoe UI";  
+  font-weight:bold;
+  color:rgb(67, 68, 69)
+}
+
+/* -----------------------------------------
+contents 
+-----------------------------------------*/
+.contents{
+  margin:50px 20px;
+  /* float:left; */
+  text-align: center;
+}
+
+.contents img {
+  width:30%;
+  padding:1%;
+}
+
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+.footer {
+  font-size: 10px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: #383e45;
+  opacity: 0.5;
+  color: white;
+  padding: 10px;
+  height:40px;
+}
+
+
+
+
+/*-------------------------------------------
+responsive
+-------------------------------------------*/
+@media(max-width:1000px){
+  .contents img {
+    width:50%
+  }
+}
+@media(max-width:670px){
+
+  .content {
+    width:100%
+  }
+
+}
